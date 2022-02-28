@@ -1,0 +1,46 @@
+h2 {
+  margin: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  padding: 65px 78px;
+  margin: 40px 0 20px;
+  box-shadow: 10px 40px 50px rgb(229 233 246/40%);
+}
+.image img {
+  margin: 100px 0 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .image img {
+    display: none;
+  }
+}
+
+.ip {
+  margin: 1rem;
+  width: 15rem;
+}
+.ip-box {
+  width: 14rem;
+  height: 1.8rem;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 195, 195);
+}
+.ip-box:focus {
+  outline: rgb(11, 186, 255) 1px solid;
+}
+.ip-box::placeholder {
+  padding: 1rem;
+  color: rgb(211, 195, 195);
+  font-size: 12px;
+}
+.submit {
+  width: 100%;
+  height: 2rem;
+  color: rgb(211, 195, 195);
+}
